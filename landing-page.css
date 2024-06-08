@@ -1,0 +1,656 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+    font-size: 56.25%;
+
+}
+
+@media(max-width:890px){
+    html{
+        font-size:43.75%;
+    }
+}
+
+/* first-page */
+.first-page {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 4rem 8rem;
+    background-image: url("background.png");
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+
+.header-container {
+    height: 15vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    height: 50%;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(69, 71, 63, 0.714);
+    border-radius: 1rem;
+}
+
+.nav-items>a {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.logo>img {
+    height: 8rem;
+    width: 8rem;
+}
+
+.main-section {
+    height: 50vh;
+    width: 60vw;
+    color: aliceblue;
+    position: absolute;
+    left: 8rem;
+    bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-section>h1 {
+    font-size: 8rem;
+}
+
+.main-section>p {
+    font-size: 2rem;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-section>button {
+    height: 5rem;
+    width: 14rem;
+    border-radius: 3rem;
+    color: white;
+    background-color: #fd4835;
+    border: none;
+    font-size: 2rem;
+
+
+}
+
+/* second page */
+
+.second-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 234, 208);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8rem;
+    
+}
+
+.fir-p {
+    font-size: 5rem;
+    text-align: center;
+    font-weight: 600;
+    color: #fd4835;
+    
+    
+}
+
+.sec-p {
+    font-size: 2rem;
+    text-align: center;
+    color: #fd4835;
+    width: 50%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+
+}
+
+.out-image {
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+
+
+.inner-image>img {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fd4835;
+    text-align: center;
+
+}
+.position {
+    color: #fd4835;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+
+}
+
+.capsicum {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 30vh;
+    right: 3rem;
+
+}
+
+.burgur {
+    height: 18rem;
+    width: 18rem;
+    position: absolute;
+    top: 5vw;
+    right: 10rem;
+
+
+}
+
+.garlic {
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    top: 15rem;
+    left: 15rem;
+}
+
+.leaf {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 35vw;
+}
+
+.sticks {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    top: 50vh;
+    left: 1rem;
+}
+
+.masroom {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    bottom: 4rem;
+    right: 35vw;
+
+}
+
+/* third-page */
+.third-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fd4835;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burgur-s>img {
+    height: 40rem;
+    width: 40rem;
+    border-radius: 20rem;
+
+}
+
+.t-div {
+    height: 50vh;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+
+}
+
+.t-div>h1 {
+    font-size: 7rem;
+    font-weight: 700;
+   
+
+}
+
+.t-div>p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+.order2 {
+    height: 4rem;
+    width: 18rem;
+    border-radius: 3rem;
+    color: #fd4835;
+    background-color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+/* fourt-page  */
+.fourth-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(253, 234, 208);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burgur-s1{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.burgur-s1>img {
+    height: 40rem;
+    width: 40rem;
+    border-radius: 20rem;
+    z-index: 1;
+
+}
+
+.t-div1 {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.t-div1>h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    color: #fd4835;
+
+}
+
+.t-div1>p {
+    width: 50%;
+    font-size: 2rem;
+    color: #fd4835;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.order3 {
+    height: 4rem;
+    width: 18rem;
+    border-radius: 3rem;
+    color: white;
+    background-color: #fd4835;
+    border: none;
+    font-size: 2rem;
+}
+
+.capsicum1 {
+
+    top: 20vh;
+    left: 0;
+    position: absolute;
+    height: 10rem;
+    width: 10rem;
+}
+
+.burgur1 {
+    left: 50vw;
+    top: 5rem;
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+
+}
+
+.garlic1 {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 15vw;
+
+}
+
+.leaf1 {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    top: 8rem;
+    right: 8rem;
+
+}
+
+.sticks1 {
+    height: 15rem;
+    width: 15rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+
+}
+
+.masroom1 {
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 40vw;
+
+}
+
+/* fifth-page */
+.fifth-page {
+    height: 100vh;
+    width: 100vw;
+    background-color: #fd4835;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.fifth-page>h1 {
+    font-size: 10rem;
+    margin-top: 10vh;
+    font-weight: 600;
+}
+
+.fifth-page>p {
+    font-size: 3rem;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    text-align: center;
+}
+
+.f-card {
+    display: flex;
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
+
+}
+
+.f-card>div {
+    border: 0.3rem solid white;
+    border-radius: 10rem;
+    height: 20rem;
+    width: 20rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.f-card>div>h1 {
+    font-weight: 600;
+    font-size: 7rem;
+    
+}
+
+.f-card>div>p {
+    font-size: 3.5rem;
+}
+
+/* sixth-page */
+.sixth-page {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(253, 234, 208);
+
+}
+
+.sixth-page>h1 {
+
+    font-size: 8rem;
+    color: #fd4835;
+}
+
+.sixth-page-card {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+
+}
+
+.sixth-page-card>div {
+    margin-top: 4rem;
+    height: 80%;
+    width: 20%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sixth-page-card>div>p {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fd4835;
+}
+
+.sixth-page-card>div>h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #fd4835;
+}
+
+.sixth-page-card>div>button {
+    height: 4rem;
+    width: 80%;
+    font-size: 2rem;
+    color: white;
+    background-color: #fd4835;
+    border-radius: 1rem;
+}
+
+/* seventh-page  */
+.seventh-page {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("background7.png");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.seventh-page>img {
+    position: absolute;
+    opacity: 0.5;
+    height: 100vh;
+    width: 100vw;
+}
+
+.seventh-page>p {
+    z-index: 1;
+    font-size: 3rem;
+    text-align: center;
+    width: 66%;
+    color: white;
+
+}
+
+.seventh-page>h1 {
+    z-index: 1;
+    font-size: 5rem;
+    color: white;
+    margin-top: 4rem;
+}
+
+
+/* eighth-page */
+.eighth-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(253, 234, 208);
+    position: relative;
+}
+
+.eighth-page>h1 {
+    color: #fd4835;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+
+}
+
+.eighth-page>p {
+    color: #fd4835;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+    width: 60%;
+
+}
+
+.eighth-page>div {
+    height: 5rem;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eighth-page>div>input {
+    height: 70%;
+    width: 70%;
+    border: none;
+    padding-left: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.eighth-page>div>button {
+    height: 70%;
+    width: 30%;
+    border-bottom-right-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border: 0;
+    background-color: #fd4835;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+/* last-page */
+.last-page {
+    height: 70vh;
+    width: 100vw;
+    background-color: black;
+    padding: 10rem;
+    display: flex;
+
+}
+
+.last-page-first-div {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    color: white;
+
+}
+
+.last-page-first-div>h1 {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+
+}
+
+.last-page-first-div>p {
+    font-size: 1.4rem;
+    width: 70%;
+
+
+}
+
+.last-page-second-div {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+}
+
+.last-page-second-div>div {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33.3%;
+}
+
+.last-page-second-div>div>h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.last-page-second-div>div>a {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 500;
+}
